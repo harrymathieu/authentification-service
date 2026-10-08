@@ -10,7 +10,8 @@
     </parent>
     <groupId>org.sample.devops</groupId>
     <artifactId>authentification-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name/>
     <description/>
     <url/>
@@ -20,6 +21,11 @@
     <developers>
         <developer/>
     </developers>
+    <modules>
+        <module>domain</module>
+        <module>infra</module>
+        <module>exposition</module>
+    </modules>
     <scm>
         <connection/>
         <developerConnection/>
@@ -49,13 +55,6 @@
 
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+
 
 </project>
